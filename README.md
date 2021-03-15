@@ -3,8 +3,11 @@ Final Project for COMP-4110: Software Verification. We are using the Selenium We
 
 ## Contributors:
 [Jameel Jiwani](https://github.com/JameelJiwani)
+
 [Mitch Sturba](https://github.com/MitchellSturba)
+
 [Nathan Seit](https://github.com/nathan1505)
+
 [Tony Alas](https://github.com/tonyalas)
 
 ## Helpful Resources:
