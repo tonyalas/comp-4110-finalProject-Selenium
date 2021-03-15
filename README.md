@@ -1,5 +1,7 @@
 # comp-4110-finalProject-Selenium
 Final Project for COMP-4110: Software Verification. We are using the Selenium WebDriver tool for web and browser testing.
+Our goal is to utilize the [Selenium](https://www.selenium.dev) testing tool to automate browser interaction to simulate a user interacting with the website.
+We will be testing the many areas of the Selenium tool to create a report on how it works, its ease of use, and what our results were after using it on a given website for testing.
 
 ## Contributors:
 [Jameel Jiwani](https://github.com/JameelJiwani)
