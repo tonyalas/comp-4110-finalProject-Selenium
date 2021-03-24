@@ -1,0 +1,112 @@
+{
+  "id": "82006527-bdf8-4c38-8019-3e4e4214e051",
+  "version": "2.0",
+  "name": "Demo",
+  "url": "https://www.litcharts.com",
+  "tests": [{
+    "id": "ced674b0-ef0b-488d-afd4-befd8e5316cd",
+    "name": "Test1",
+    "commands": [{
+      "id": "e6b492a9-fb32-46e5-a1c2-4497d80e1032",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c88b68f4-f06b-45cc-9951-8ddeb321a041",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75fb92e1-0f20-48a9-a0d9-3b55a3d47c14",
+      "comment": "",
+      "command": "click",
+      "target": "name=query",
+      "targets": [
+        ["name=query", "name"],
+        ["css=.header-controls__control .form-control", "css:finder"],
+        ["xpath=//input[@name='query']", "xpath:attributes"],
+        ["xpath=//section[@id='panel']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c5a630-e740-4df4-aef0-fafbb2c3e175",
+      "comment": "",
+      "command": "type",
+      "target": "name=query",
+      "targets": [
+        ["name=query", "name"],
+        ["css=.header-controls__control .form-control", "css:finder"],
+        ["xpath=//input[@name='query']", "xpath:attributes"],
+        ["xpath=//section[@id='panel']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "george orwell"
+    }, {
+      "id": "792272b3-d879-4d15-abcc-99280764f263",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=query",
+      "targets": [
+        ["name=query", "name"],
+        ["css=.header-controls__control .form-control", "css:finder"],
+        ["xpath=//input[@name='query']", "xpath:attributes"],
+        ["xpath=//section[@id='panel']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2122571d-e578-481c-9449-031b96d46192",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1984",
+      "targets": [
+        ["linkText=1984", "linkText"],
+        ["css=.hit-item:nth-child(1) .title", "css:finder"],
+        ["xpath=//a[contains(text(),'1984')]", "xpath:link"],
+        ["xpath=//div[@id='hits']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lit/1984')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'1984')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "099624cc-3837-497e-8c9d-93798c9713ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) .naked",
+      "targets": [
+        ["css=a:nth-child(2) .naked", "css:finder"],
+        ["xpath=//section[@id='panel']/section/div/div[3]/div[3]/div/div/div/main/div/div[2]/a[2]/div/div/h3", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'1984: Plot Summary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a1bd0ec-74b8-43e9-801d-e11da6dae3a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.component-title",
+      "targets": [
+        ["css=.component-title", "css:finder"],
+        ["xpath=//section[@id='panel']/section/div/div[3]/div[2]/div/table/tbody/tr/td[2]/h1/span/span", "xpath:idRelative"],
+        ["xpath=//h1/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a4501e7e-ccea-48ec-b5a9-87ef356c7bc1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ced674b0-ef0b-488d-afd4-befd8e5316cd"]
+  }],
+  "urls": ["https://www.litcharts.com/"],
+  "plugins": []
+}
