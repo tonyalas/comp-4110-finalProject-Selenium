@@ -22,7 +22,7 @@ link.click()
 user = driver.find_element_by_id("user[signin]")
 
 #Enter the string 'ticket' to search for results
-user.send_keys("SeleniumTest")
+user.send_keys("SeleniumTester99")
 
 #Now the password
 mypass = driver.find_element_by_id("user[password]")
