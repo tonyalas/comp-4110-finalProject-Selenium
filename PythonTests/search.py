@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 #Set the path variables
-PATH = "C:\Program Files (x86)\chromedriver.exe"
+PATH = "./chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
 #Get the link to the website we're testing
